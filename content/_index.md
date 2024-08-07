@@ -6,7 +6,7 @@
 {{ img(id="bro.gif", alt="xfx6800xt", class="center walkingboy") }}
 
 Bienvenidos a este portafolio, mi nombre es Tiago Martínez, soy un desarrollador Full-Stack Junior y un gran entusiasta de la programación enfocado principalmente en Web Development.
-Aspiro a trabar profesionalmente con tecnologías de la actualidad y dejar de lado la progrmación tediosa y antigua [¡¡Aprenda más de mí!!](./about/about)
+Aspiro a trabar profesionalmente con tecnologías de la actualidad y dejar de lado la progrmación tediosa y antigua [¡¡Aprenda más de mí!!](./about)
 
 
 - "Finalmente con domino funcional!"
