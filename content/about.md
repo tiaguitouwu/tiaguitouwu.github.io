@@ -18,7 +18,7 @@ En cuanto a experiencia laboral en la actualidad ocupo el puesto de desarrollado
 
 Mi Object
 
-{{ iframe (id="@/about/tiago.pdf" class="center") }}
+{{ iframe (id="/tiago.pdf" class="center") }}
 
 
 <!-- {{ youtube(id="pS6zJ7IsJkM" class="center") }} -->
