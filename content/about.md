@@ -2,7 +2,7 @@
 title = "Sobre Mí :3"
 +++
 
-{{ img(id="me.jpg", alt="mememe", class="center me") }}
+{{ img(id="./static/me.jpg", alt="mememe", class="center me") }}
 
 Me llamo Tiago!, soy un joven desarrollador que se destaca por sus ganas de aprender y perseverancia al momento de realizar proyectos.
 
