@@ -18,7 +18,7 @@ En cuanto a experiencia laboral en la actualidad ocupo el puesto de desarrollado
 
 Mi Curriculum
 
-{{ iframe (id="Tiago.pdf",alt="CV" class="center") }}
+{{ iframe (id="/Tiago.pdf",alt="CV" class="center") }}
 
 
 <!-- {{ youtube(id="pS6zJ7IsJkM" class="center") }} -->
