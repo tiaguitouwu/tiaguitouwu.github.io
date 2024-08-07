@@ -30,7 +30,7 @@ favicon = "favicon.ico"
 image = ""
 
 header_nav = [
-  { url = "/", name_en = "/home/"},
-  { url = "/about", name_en = "/about/" },
-  { url = "/journal", name_en = "/journal/" }
+  { url = "Portafolio/", name_en = "/home/"},
+  { url = "Portafolio/about", name_en = "/about/" },
+  { url = "Portafolio/journal", name_en = "/journal/" }
 ]
