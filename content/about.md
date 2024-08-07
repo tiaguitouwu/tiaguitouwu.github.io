@@ -16,9 +16,9 @@ En cuanto a experiencia laboral en la actualidad ocupo el puesto de desarrollado
     - JQuery
     - NodeJS
 
-Mi Object
+Mi Curriculum
 
-{{ iframe (id="/tiago.pdf" class="center") }}
+{{ iframe (id="/tiago.pdf",alt="CV" class="center") }}
 
 
 <!-- {{ youtube(id="pS6zJ7IsJkM" class="center") }} -->
