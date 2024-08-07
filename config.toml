@@ -13,6 +13,7 @@ taxonomies = [
     {name = "tags", feed = true},
 ]
 
+hard_link_static = true
 
 [markdown]
 # Whether to do syntax highlighting
