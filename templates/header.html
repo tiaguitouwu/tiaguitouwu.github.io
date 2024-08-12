@@ -7,12 +7,12 @@
 {% if config.extra.header_nav %}
   <nav id="nav-bar">
     {% for nav_item in config.extra.header_nav %}
-      <a href="{{ nav_item.url }}" class="">
+      <a href="{{ nav_item.url }}" style="margin-left: 2vw; font-size: large;">
         {% set language_key = 'name_' ~ current_lang %}
         {{ nav_item[language_key] }}
       </a>
     {% endfor %}
-    <div>
+    <div style="margin-left: 1vw; margin-right: 1vw;">
       <input type="checkbox" id="theme-toggle" style="display: none;">
       <label for="theme-toggle" id="theme-toggle-label"><svg id="theme-icon" class="icons"><use href="{{ get_url(path='/icons.svg#lightMode', trailing_slash=false) | safe }}"></use></svg></label>
       <audio id="theme-sound">
