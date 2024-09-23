@@ -17,7 +17,7 @@ Aspiro a trabar profesionalmente con tecnologías de la actualidad y dejar de la
 
 Un pequeño TODO construido como proyecto por diversión:
 
-- 🐳 [Lista de Que Hacer, React + TypeScript + Node + Express](./blog/overview-post)
+- 🐳 [Lista de Que Hacer, React + TypeScript + Node + Express](http://todo.tiagomartinez.xyz:5173/)
 
 Nada muy especial
 - Backend

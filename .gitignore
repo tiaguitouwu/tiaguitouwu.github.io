@@ -399,3 +399,5 @@ FodyWeavers.xsd
 
 # Credentials
 .env
+
+public/
