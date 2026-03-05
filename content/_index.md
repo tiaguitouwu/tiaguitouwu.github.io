@@ -5,15 +5,17 @@
 
 {{ img(id="bro.gif", alt="xfx6800xt", class="center walkingboy") }}
 
-Bienvenidos a este portafolio, mi nombre es Tiago Martínez, soy un desarrollador Full-Stack Junior y un gran entusiasta de la programación enfocado principalmente en Web Development.
-Aspiro a trabar profesionalmente con tecnologías de la actualidad y dejar de lado la progrmación tediosa y antigua [¡¡Aprenda más de mí!!](./about)
+Bienvenidos a mi portafolio.
+Mi nombre es Tiago Martínez y soy desarrollador Backend especializado en C#. Me apasiona la programación y estoy enfocado principalmente en el desarrollo web.
+
+Mi objetivo es desarrollarme profesionalmente trabajando con tecnologías modernas, creando soluciones eficientes, escalables y de alto impacto, dejando atrás enfoques obsoletos y prácticas poco productivas. [¡¡Aprenda más de mí!!](./about)
 
 
-- "Finalmente con domino funcional!"
+<!-- - "Finalmente con domino funcional!" -->
 
 ‎ 
 
-## Mira mi último Proyecto :D
+<!-- ## Mira mi último Proyecto :D
 
 Un pequeño TODO construido como proyecto por diversión:
 
@@ -28,5 +30,5 @@ Nada muy especial
 - Frontend
   - TypeScript
   - React + Vite
-  - Tailwindcss
+  - Tailwindcss -->
 
