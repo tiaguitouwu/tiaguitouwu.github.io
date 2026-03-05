@@ -1,0 +1,209 @@
+#nav-bar {
+  padding: .625rem 0 0 0;
+  display: flex;
+  flex-direction: row;
+  gap: .25rem;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: flex-end
+}
+
+#footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accent-data {
+  color: var(--accent);
+}
+
+.theme-transition {
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.tags-data {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: flex-start;
+  align-content: flex-end
+}
+
+.title-list li {
+  margin-bottom: .375rem;
+}
+
+/* icons settings */
+.icons {
+  width: 1.3rem;
+  height: 1.3rem;
+  aspect-ratio: 1/1;
+  display: inline-block;
+  vertical-align: middle;
+  color: var(--text);
+  fill: var(--text);
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.icons:hover {
+  background-color: transparent;
+  color: var(--accent);
+}
+
+/* footnotes */
+.footnote-definition {
+  margin: 0 0 0 .125rem;
+}
+
+.footnote-definition-label {
+  color: var(--accent);
+}
+
+.footnote-definition p {
+  display: inline;
+  margin: .625rem 0 0 .625rem;
+}
+
+/* general classes */
+.no-style {
+  padding: 0;
+  margin: 0;
+  border: none;
+  border-radius: 0
+}
+
+.no-style:hover {
+  background-color: transparent;
+  color: var(--accent);
+}
+
+.center {
+  text-align: center;
+}
+
+.center img {
+  display: block;
+  margin: 1rem auto;
+}
+
+.float-right {
+  float: right
+}
+
+.float-left {
+  float: left
+}
+
+/* shortcodes css */
+.webring {
+  margin: .375rem;
+}
+
+
+/* ===== SWIPER SLIDER ===== */
+
+.swiper {
+  width: 100%;
+  max-width: 900px;
+  margin: 40px auto;
+  overflow: hidden; /* Oculta lo que queda fuera del slide visible */
+  position: relative; /* Referencia para posicionar flechas dentro del contenedor */
+}
+
+.swiper-wrapper {
+  display: flex; /* Requerido por Swiper para el carrusel */
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;       /* Cada slide ocupa todo el ancho del contenedor */
+  flex-shrink: 0;    /* Evita que se achiquen y se vean varios a la vez */
+  /* Sin min-height: el alto se adapta totalmente al de la imagen */
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: auto;           /* Altura según proporción de la imagen */
+  object-fit: contain;    /* Por si en algún caso el contenedor es más bajo */
+  border-radius: 12px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  position: absolute;      /* Las flechas van posicionadas dentro del slider */
+  color: #fff;
+  background: rgba(0,0,0,0.3);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;           /* Centra el icono dentro del círculo */
+  align-items: center;
+  justify-content: center;
+  z-index: 10; /* Asegura que estén sobre las imágenes */
+  top: 50%;
+  transform: translateY(-50%); /* Centra verticalmente las flechas */
+}
+
+/* Iconos de flecha dentro de los botones */
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 18px;       /* Tamaño del icono */
+  color: #fff;           /* Color de la flecha */
+  font-weight: bold;
+}
+
+.swiper-button-prev::after {
+  content: '‹';          /* Flecha hacia la izquierda */
+}
+
+.swiper-button-next::after {
+  content: '›';          /* Flecha hacia la derecha */
+}
+
+.swiper-button-prev {
+  left: 10px;  /* Separación del borde izquierdo */
+}
+
+.swiper-button-next {
+  right: 10px; /* Separación del borde derecho */
+}
+
+/* Efecto hover: círculo más oscuro al pasar el mouse */
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background: rgba(0,0,0,0.6);
+}
+
+.swiper {
+  pointer-events: auto;
+}
+
+/* Posición y forma de los puntitos de paginación */
+.swiper-pagination {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+}
+
+.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.15); /* base muy tenue */
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background: rgba(255, 255, 255, 1);   /* blanco sólido en el activo */
+  transform: scale(1.35);               /* un poco más grande para destacar */
+}
